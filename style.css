@@ -1,0 +1,101 @@
+.navbar-brand {
+			font-weight: bold;
+			font-size: 20px;
+		}
+		.navbar-inverse {
+			background-color: #444d56;
+			border-color: #002244;
+		}
+		.navbar-inverse .navbar-nav > li > a {
+			color: #ffffff;
+		}
+		.navbar-inverse .navbar-nav > li > a:hover {
+			background-color: #005599;
+			color: #fff;
+		}
+		.navbar-inverse .navbar-toggle {
+			border-color: #fff;
+		}
+		.navbar-inverse .navbar-toggle .icon-bar {
+			background-color: #fff;
+		}
+		.btn-login {
+			margin-top: 8px;
+			margin-left: 10px;
+		}
+
+	/* Paket*/
+		.panel-promo {
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .panel-heading-promo {
+      background-color: #e74c3c;
+      color: white;
+      padding: 5px 10px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-bottom-left-radius: 5px;
+      font-weight: bold;
+    }
+    .panel-body {
+      padding: 20px;
+    }
+    .price {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .feature {
+      margin: 10px 0;
+    }
+    .choose-btn {
+      margin-top: 20px;
+    }
+    .icon-box img {
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      margin-right: 10px;
+	  box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+    }
+  /* Style untuk bagian Bantuan & FAQ */
+#bantuan h2 {
+  margin-bottom: 30px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#bantuan .panel-title a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#bantuan .panel-title a:hover {
+  color: #007BFF;
+}
+
+#bantuan .panel-body {
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+.panel:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+.panel {
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+.modal-body ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  .modal-body li {
+    margin-bottom: 10px;
+  }
